@@ -1,0 +1,93 @@
+<!--@layout(/layout/basic/layout.html)-->
+<!--@js(/layout/basic/js/main.js)-->
+<!--@css(/layout/basic/css/main.css)-->
+<!--@import(/smart-banner/shop1/smart-banner-admin-RES00001.html)-->
+<section class="section main_product_slide" data-ez-module="product-list-slide/1" data-ez="contents-1ayz674-1" style="margin-bottom: 0px;">
+	<div class="main_title ez-align-center" data-ez-role="ez-align" data-ez-align="center"><!-- 위클리하이라이트 타이틀 수정하는곳 -->
+		<div class="main_title_txt01" data-ez-role="title">Weekly Pick</div>
+		<div class="main_title_txt02" data-ez-role="subtitle">이번주 주인님들의 Pick은</div>
+	</div><!-- //main_title -->
+
+	<div data-ez-holder="product_listmain">
+		<div module="product_listmain_2" class="ec-base-product swiper-container highlight_slide">
+			<ul class="swiper-wrapper prdList grid5_slide">
+				<!--@import(/product/list_product_slide.html)-->
+			</ul>
+			<div class="swiper-pagination swiper-pagination-highlight_product"></div>
+		</div>
+	</div>
+	<div class="swiper-prev swiper-prev-highlight_product"></div>
+	<div class="swiper-next swiper-next-highlight_product"></div>
+</section>
+<section class="section main_product_list" data-ez-module="product-list/1" data-ez-layout="grid4" data-ez="contents-04grgtx-1">
+	<ez-prop data-version="1.0.0">
+		<ez-var data-prop="layout" data-namespace="ez.module.product-list.layout" data-type="array">
+			<ez-item data-id="grid4" data-name="일반4단형(PC 4열/MOBILE 2열)"></ez-item>
+			<ez-item data-id="grid3" data-name="일반3단형(PC 3열/MOBILE 1열)"></ez-item>
+			<ez-item data-id="grid3 list_gallery" data-name="이미지강조3단형(PC 3열/MOBILE 1열)"></ez-item>
+			<ez-item data-id="grid4 list_gallery" data-name="이미지강조4단형(PC 4열/MOBILE 2열)"></ez-item>
+			<ez-item data-id="grid5 list_gallery" data-name="이미지강조5단형(PC 5열/MOBILE 2열)"></ez-item>
+		</ez-var>
+	</ez-prop>
+
+	<div data-ez-holder="product_listmain">
+		<div module="product_listmain_1" class="ec-base-product">
+			<!--
+				$count = 4
+				$basket_result = /product/add_basket.html
+				$basket_option = /product/basket_option.html
+				$moreview = no
+				$cache = yes
+			-->
+			<div class="main_title ez-align-center" data-ez-role="ez-align" data-ez-align="center"><!-- 이번주의 입고상품 타이틀 수정하는곳 -->
+				<div class="main_title_txt01" data-ez-role="title">
+					<p class="main_title_ani"><img src="/img/clock.svg" alt="시계">품절임박</p></div>
+				<div class="main_title_txt02" data-ez-role="subtitle">품절이 임박한 상품입니다.</div>
+			</div><!-- //main_title -->
+
+			<ul class="prdList grid4" data-ez-role="layout">
+				<!--@import(/product/list_product.html)-->
+			</ul>
+		</div>
+		<div module="product_listmore_1" class="more">
+			<a href="#none" onclick="{$more_action}" class="btnMore">More +</a>
+		</div>
+	</div>
+</section>
+<!--@import(/smart-banner/shop1/smart-banner-admin-RES00007.html)-->
+<section class="section main_text ez-textsize-large ez-align-center" data-ez-module="text/1" data-ez-role="style.background" data-ez-align="center" data-ez-textsize="large" style="background-color: rgb(250, 247, 243); margin-bottom: 67px;" data-ez="contents-0zivv2p-1">
+	<div class="main_long_banner"><!-- 메인 롱배너 -->
+		<div class="main_long_banner_txt">
+			<div class="main_long_banner_txt01 long_ft" data-ez-role="title" style="color: rgb(0, 0, 0); font-weight: 900; margin-top: 13px;">반려동물과 함께 음식을 공유하고 싶은 모든 반려인을 위해</div>
+			<div class="main_long_banner_txt02" data-ez-role="desc" style="color: rgb(119, 119, 119);"><p><br></p><p><br></p><p style="font-weight:500; color:#333;">반려동물에게 안전하고 건강한 음식을 주고 세상의 수많은 음식을 함께나누고 싶다는 아주 사소한 생각으로 시작되었습니다.</p><p><br></p><p class="long_mt">*안전하고 건강한 음식을 주고싶은 마음</p><p class="long_mt">*세상의 수많은 음식을 함께 공유하고픈 마음</p><p><br></p><p style="font-weight:500; margin-bottom: 34px; color:#333;">이러한 마음들을 모아 트릿테이블을 만들었습니다.</p><p><br></p><p><strong style="font-weight: 900;">모든 반려동물과 반려인이 작지만 소소한 행복을 느끼며 추억을 만들 수 있도록 돕는<span style="color: rgb(233, 125, 129);">Treat Table&nbsp;</span>입니다.</strong></p><p><strong>&nbsp;</strong></p><p><br></p></div>
+			<div class="main_text_link"><a data-ez-role="a" href="#" target="_blank"></a></div>
+		</div><!-- //main_long_banner_txt -->
+	</div><!-- //main_long_banner -->
+</section>
+<section class="section main_text ez-textsize-medium ez-align-center" data-ez-module="text/1" data-ez-role="style.background" data-ez-align="center" style="background-color: rgb(250, 247, 243);" data-ez="contents-1u8acte-1" data-ez-textsize="medium">
+	<div class="main_long_banner"><!-- 메인 롱배너 -->
+		<div class="main_long_banner_txt">
+			<div class="main_long_banner_txt01" data-ez-role="title" style="color: rgb(0, 0, 0); font-weight: 900; font-size:1.6rem">입점안내</div>
+			<div class="main_long_banner_txt02" data-ez-role="desc" style="color: rgb(119, 119, 119);"><p><span style="color: #000"><strong style="font-size:1.2rem; color:#333;">-하단 바로가기로 홈페이지 접속 후 <span style="color:#0326ff">회원가입</span> 해주시면 담당자가 빠른시일내에 연락을 드립니다 :)</strong></span></p><p><br></p>
+				<p style="margin:24px 0;">
+					<strong><span style="color: rgb(90, 80, 75); font-size: 1.2rem;">*현재 입점사</span></strong>
+				</p>
+			</div>
+			<div class="imgs">
+				<ul class="d-flex align-items-center justify-content-center">
+					<li class="rel d-flex align-items-center text-center"><img src="/img/sl_1.jpg" alt=""><p class="abs text">홍천<br> 비발디파크</p></li>
+					<li class="rel d-flex align-items-center"><img src="/img/sl_2.jpg" alt=""><p class="abs text">충주<br> 켄싱턴리조트</p></li>
+					<li class="rel d-flex align-items-center"><img src="/img/sl_3.jpg" alt=""><p class="abs text">설악밸리<br> 켄싱턴리조트</p></li>
+				</ul>
+				<ul class="d-flex align-items-center justify-content-center">
+					<li class="rel d-flex align-items-center"><img src="/img/sl_4.jpg" alt=""><p class="abs text">인천<br> 쉐라톤그랜드호텔</p></li>
+					<li class="rel d-flex align-items-center"><img src="/img/sl_5.jpg" alt=""><p class="abs text">증평<br> 블랙스톤리조트</p></li>
+					<li class="rel d-flex align-items-center"><img src="/img/sl_6.jpg" alt=""><p class="abs text">강릉<br> 세인트존스호텔</p></li>
+				</ul>
+			</div>
+			<div class="main_text_link"><a data-ez-role="a" href="http://dogttfoodb2b.com/category/%EC%82%AC%EC%97%85%EC%9E%90-%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85-%EB%B0%A9%EB%B2%95/43/" target="_blank">바로가기</a></div>
+		</div><!-- //main_long_banner_txt -->
+	</div><!-- //main_long_banner -->
+</section>
+<!--@define(cmc_log)-->
+<!--#ez="1/4"-->
